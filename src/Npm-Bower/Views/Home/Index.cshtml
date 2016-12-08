@@ -1,10 +1,8 @@
-﻿<html>
-<head>
-    <title>My Template</title>
-</head>
-<body>
-    <div class="container">
-        <h2>Welcome to My Template!</h2>
-    </div>
-</body>
-</html>
+﻿@{
+    ViewData["Title"] = "My Template";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h2>Welcome to My Template!</h2>
+</div>
